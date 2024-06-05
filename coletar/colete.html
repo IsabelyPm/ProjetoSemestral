@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do Milho</title>
+    
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 0;
+            background-image: url(fundoespan.png);
+        }
+        canvas {
+            display: block;
+            background-color: transparent; /* Certifica-se de que o canvas é transparente */
+            justify-content:center;
+            align-items:center;
+            margin-top: 110px;
+            margin-left: -40px;
+            z-index: 1;
+            width: 1620px;
+            
+        }
+        p {
+            margin-top: 750px;
+            margin-left: 1500px;
+            font-size: 18px;
+            color: #ffffff;
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            z-index: 2;
+  
+        }
+        
+#volumeControl{
+    position: absolute;
+    margin-top: 400px;
+    transform: rotate(90deg); /* Equal to rotateZ(45deg) */
+    margin-left: 20px;
+    z-index: 6;
+}
+#home {
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 20px;
+    z-index: 1;
+}
+#som {
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 20px;
+    z-index: 4;
+   
+}
+    </style>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.55.2/phaser.min.js"></script>
+    <canvas id="transparentCanvas" width="1720" height="600"></canvas>
+  <p>Use as setas do teclado para mover o jogador e colete 25 milhos. Boa sorte!</p>
+  <audio id="som1" src="../game/SND/Get Lucky (8 Bit Remix Cover Version) [Tribute to Daft Punk] - 8 Bit Universe.mp3" preload="auto"></audio>
+  <img id="som" src="../game/IMG/image-removebg-preview__5_-removebg-preview.png">
+  <img id="home" src="../game/IMG/home-removebg-preview.png">
+  <input type="range" id="volumeControl" min="0" max="1" step="0.01" value="0.3">
+  <script src="main.js"></script>
+  
+</body>
+</html>

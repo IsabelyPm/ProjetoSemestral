@@ -1,0 +1,58 @@
+#canvasMenu {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+#link_jogar {
+    /*Inicia oculto*/
+    margin-top: 20px; /*distância do topo*/
+    margin-left: 15px; /*distância da esquerda*/
+    display:none; /*oculto*/
+
+     /*Cores e fundo*/
+     color: yellow;
+ 
+     /*Fonte*/
+     font-size: 20px;
+     font-family: SPACE;
+ 
+     /*Sem sublinhando e com sombra*/
+     text-decoration: none;
+     text-shadow: 2px 2px 5px black;
+ 
+     /*Posicionamento*/
+     position: absolute;
+     left: 220px;
+     top: 330px;
+ 
+     /*A imagem do botão é 72x72px, descontamos os paddings*/
+     width: 52px;
+     height: 52px;
+     padding: 23px 10px;
+ }
+ #X {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 1368px;
+    z-index: 1;
+}
+#volumeControl{
+    position: absolute;
+    margin-top: -500px;
+    transform: rotate(90deg); /* Equal to rotateZ(45deg) */
+    margin-left: -50px;
+}
+#home {
+    position: absolute;
+    margin-top: -660px;
+    margin-left: -10px;
+    z-index: 1;
+}
+#som {
+    position: absolute;
+    margin-top: -600px;
+    margin-left: -0px;
+    z-index: 4;
+   
+}
