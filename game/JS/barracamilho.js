@@ -83,7 +83,7 @@ window.onload = function() {
 
  // Redirecionar para outro HTML após 10 segundos (10000ms)
  setTimeout(function() {
-    window.location.href = '../labirinto/labirinto.html';
+    window.location.href = '../labirinto.html';
 }, 7000);
 
 var imagemX = document.getElementById('home');

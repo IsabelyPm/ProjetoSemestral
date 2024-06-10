@@ -253,7 +253,7 @@
         if (collectedItems === 5 && player.x >= exitX && player.x <= exitX + tileSize &&
             player.y >= exitY && player.y <= exitY + tileSize) {
             // Redirecionar para outra página
-            window.location.href = "../coletar/colete.html";
+            window.location.href = "../colete.html";
         }
         if(mvLeft || mvRight || mvUp || mvDown){
             player.countAnim++;
