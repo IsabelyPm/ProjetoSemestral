@@ -41,7 +41,7 @@
         audio.play();
     });
     var img = new Image();
-    img.src = "img/img.png";
+    img.src = "IMG/img.png";
     img.addEventListener("load",function(){
         requestAnimationFrame(loop,cnv);
     },false);
