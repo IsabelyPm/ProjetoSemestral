@@ -47,19 +47,19 @@
     },false);
 
     var itemImg1 = new Image();
-    itemImg1.src = "img/mir.png";
+    itemImg1.src = "IMG/mir.png";
 
     var itemImg2 = new Image();
-    itemImg2.src = "img/mir.png";
+    itemImg2.src = "IMG/mir.png";
 
     var itemImg3 = new Image();
-    itemImg3.src = "img/mir.png";
+    itemImg3.src = "IMG/mir.png";
 
     var itemImg4 = new Image();
-    itemImg4.src = "img/mir.png";
+    itemImg4.src = "IMG/mir.png";
 
     var itemImg5 = new Image();
-    itemImg5.src = "img/mir.png";
+    itemImg5.src = "IMG/mir.png";
 
     var walls = [];
     var items = [
